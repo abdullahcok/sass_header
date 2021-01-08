@@ -1,0 +1,32 @@
+
+.header{
+  height: 95.5vh;
+  background: linear-gradient(to right bottom,
+                    rgba(137, 197, 241, 0.3), rgba(15, 141, 241, 0.7)),
+                    url(../../img/bg.jpeg);
+  background-size: cover;
+  background-position: center;
+  position: relative;
+  clip-path: polygon(0 1%, 100% 2%, 100% 95%, 0 98%);
+
+  &__logo{
+    position: absolute;
+    top: 4rem;
+    left: 4rem;
+  }
+
+  .logo-icon{
+    height: 6rem;
+  }
+
+
+  &__content{
+    position: absolute;
+    top: 45%;
+    left: 47%;
+    /* background: linear-gradient(rgba(0,0,0,0.2), rgba(0,0,0,0.3)); */
+    transform: translate(-45%, -40%);
+    text-align: center;
+    }
+
+}

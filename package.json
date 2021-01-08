@@ -1,0 +1,17 @@
+{
+  "name": "first_again",
+  "version": "1.0.0",
+  "description": "ready for sass",
+  "main": "index.js",
+  "scripts": {
+    "test": "test"
+  },
+  "keywords": [
+    "sass"
+  ],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "node-sass": "^5.0.0"
+  }
+}
